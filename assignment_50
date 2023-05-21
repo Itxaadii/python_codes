@@ -1,0 +1,21 @@
+string = input("Input a string: ")
+s1 = input("Enter subtring to replace: ")
+s2 = input("Enter subtring to replace with: ")
+ans = ""
+i = 0
+while i < len(string):
+k = 0
+if string[i] == s1[k] and i + len(s1) <= len(string):
+j = i
+while j < i + len(s1) and string[j] == s1[k]:
+k += 1
+j += 1
+if j == i + len(s1):
+ans += s2
+i = j - 1
+else:
+ans += string[i]
+else:
+ans += string[i
+i += 1
+print(ans
