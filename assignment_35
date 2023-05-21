@@ -1,0 +1,7 @@
+string = input("Input some words: ").split()
+str2 = []
+for i in string: 
+if i not in str2:
+str2.append(i)
+for i in range(len(str2)):
+print(str2[i], ':', string.count(str2[i]))
