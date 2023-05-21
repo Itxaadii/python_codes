@@ -8,3 +8,5 @@ sum += rem**size
 n//=10
 if sum == orNum:
 print("It's an armstrong number.")
+else:
+print("It is not an armstrong number.")
