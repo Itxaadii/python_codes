@@ -1,0 +1,12 @@
+n1 = int(input("Enter first number: "))
+n2 = int(input("Enter second number: "))
+lcm=0
+high = n2
+if n1>n2:
+high = n1
+while True:
+if (high%n1==0) and (high%n2==0):
+lcm = high
+break
+high+=1
+print("Lcm:", lcm)
