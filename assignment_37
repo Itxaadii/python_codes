@@ -1,0 +1,11 @@
+string = input("Input a string: ")
+print("Method #1", len(string))
+count = 0
+for i in string:
+count += 1
+print("Method #2", count)
+count = 0
+while string[count:]:
+count += 1
+print("Method #3", count)
+print("Method #4", (string).join(string).count(string)+1)
