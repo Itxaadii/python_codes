@@ -1,0 +1,9 @@
+string = input("Input a string: ")
+freq = {}
+for i in string:
+if i in freq:
+freq[i] += 1
+else:
+freq[i] = 1
+res = min(freq, key = freq.get)
+print ("Minimum occuring character: " + str(res))
