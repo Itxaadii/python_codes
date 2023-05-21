@@ -1,0 +1,16 @@
+n = int(input("Enter a number: ")) 
+sum=0
+orNum = n 
+while n!=0: 
+i=1
+fact=1
+rem=n%10
+while i<=rem: 
+fact*=i 
+i+=1
+sum+=fact 
+n//=10
+if(sum==orNum): 
+print("Given number is a strong number") 
+else: 
+print("Given number is not a strong number")
