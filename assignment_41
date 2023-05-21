@@ -1,0 +1,6 @@
+string = input("Input a string: ")
+ls=[]
+for i in string:
+if i not in ls:
+ls.append(i)
+print("".join(ls))
