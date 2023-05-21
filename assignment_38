@@ -1,0 +1,4 @@
+string = input("Input a string: ").split()
+for i in string:
+if len(i)%2==0:
+print(i)
