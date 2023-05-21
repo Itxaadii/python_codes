@@ -1,0 +1,13 @@
+n = int(input("Enter a number: "))
+i=1
+while i<=n:
+sum = 0
+orNum = i
+size = len(str(i))
+while orNum!=0:
+rem = orNum%10
+sum += rem**size
+orNum//=10
+if sum == i:
+print(i)
+i+=1
