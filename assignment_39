@@ -1,0 +1,10 @@
+string = input("Input a string: ").lower().split()
+vowels = "aeiou"
+for i in string:
+ls = []
+for j in i:
+if j in vowels:
+if j not in ls:
+ls.append(j) 
+if len(ls) == 5:
+print(i
