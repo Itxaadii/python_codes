@@ -1,0 +1,5 @@
+string = input("Input some words: ")
+i = int(input("Enter position to remove: "))
+a = string[:i-1]
+b = string[i:]
+print("New String:",a+b)
