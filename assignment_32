@@ -1,0 +1,3 @@
+string = input("Input some words: ")
+print("Before Reverse: ",string)
+print("After Reverse: ",string[::-1])
