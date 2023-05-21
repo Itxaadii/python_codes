@@ -1,0 +1,14 @@
+string = input("Input a string: ")
+ls = []
+for i in range(len(string)):
+ls.append(string[i])
+newlist = []
+j = 0
+for i in range(len(ls)):
+if string[i] not in newlist:
+newlist.insert(j, string[i])
+j = j+1
+print("Original String:", string)
+string = ""
+string = string.join(newlist)
+print("New String:", string)
