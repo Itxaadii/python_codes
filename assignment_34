@@ -1,0 +1,6 @@
+string = input("Input some words: ")
+subStr = input("Enter a substring: ")
+if subStr in string:
+print("It is in string.")
+else:
+print("It is not in string.")
