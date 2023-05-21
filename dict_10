@@ -1,0 +1,2 @@
+n = int(input())
+print({x:x**5 for x in range(0,n+2)})
