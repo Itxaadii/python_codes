@@ -1,0 +1,15 @@
+n = int(input("Enter a number: "))
+i = 2
+sum = 0
+while i<n:
+j = 2
+flag = 1
+while j<i:
+if i%j == 0:
+flag = -1
+break
+j+=1
+if flag != -1:
+sum+=i
+i+=1
+print("Sum:",sum)
