@@ -1,0 +1,11 @@
+str1 = input("Input first string: ")
+str2 = input("Input second string: ")
+ls1 = str1.split()
+ls2 = str2.split()
+word = ""
+for i in ls1:
+if i not in ls2:
+print(i)
+for j in ls2:
+if j not in ls1:
+print(j)
